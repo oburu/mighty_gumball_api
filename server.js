@@ -29,7 +29,7 @@ const server = app.listen(3000, () => {
   console.log('Listening port:3000')
 });
 
-//example for params
+//example for params hello
 /*
 app.get('/search/:flower/:num', (req, res) => {
   let { flower, num } = req.params;
