@@ -50,9 +50,10 @@ console.log('Server is starting');
 
 var express = require('express');
 const app = express();
+const PORT = process.env.PORT || 3000;
 
-const server = app.listen(3000, () => {
-  console.log('Listening port:3000')
+app.listen(PORT, () => {
+  console.log('Express server is up on port: ' + PORT);
 });
 
 //example for params hello
