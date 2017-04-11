@@ -1,0 +1,13 @@
+{
+  "name": "mighty_gumball_api",
+  "version": "1.0.0",
+  "description": "Simple RESTful api that serves sales",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Augusto Solorzano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
