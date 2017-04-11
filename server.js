@@ -70,7 +70,7 @@ app.get('/search/:flower/:num', (req, res) => {
 
 app.get('/mighty_gumball_api', (req, res) => {
   let index = getRandomArbitrary(0, sales.length) < 20 ? getRandomArbitrary(0, sales.length) : 0;
-  res.addHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Origin", "*");
   res.send(sales[index]);
 });
 
